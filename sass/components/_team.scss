@@ -1,0 +1,92 @@
+.team {
+    background-color: #f5f4fa;
+  }
+  
+  .containerFrames {
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+  }
+  
+  .containerFrames__cart{
+    
+      
+      background-color: #ffffff;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+  
+    .containerFrames__cart-img{
+      width: 100%;
+    }
+  
+    .containerFrames__cart-name{
+      font-weight: 500;
+    line-height: 1.17;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black-color);
+    margin-top: 30px;
+    }
+  
+    
+    .containerFrames__cart-work {
+    color: var(--grey-color);
+    line-height: 1.17;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: var(--grey-color);
+  }
+  
+  .containerFrames__cart-icons_team{
+    display: flex;
+    gap:10px;
+    margin-right: 32px;
+    margin-bottom:42px;
+    margin-left: 32px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .containerFrames__cart-icons_team svg {
+    width: 44px;
+    height: 44px;
+    
+    --color1: #fff;
+    --color2: #afb1b8;
+    transition: color 2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .containerFrames__cart-icons_team svg:hover {
+    width: 44px;
+    height: 44px;
+    --color1: var(--main-color);
+    --color2: var(--button_text-color);
+  }
+  
+  /* *******************klienci *****************/
+  
+  .clients__Logo {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .clients__Logo svg {
+    height: 60px;
+    width: 170px;
+    --color1: var(--grey-color);
+    outline: 1px solid var(--grey-color);
+  }
+  
+  .clients__Logo svg:hover {
+    --color1: var(--main-color);
+    outline: 1px solid var(--main-color);
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  

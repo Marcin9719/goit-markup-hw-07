@@ -1,0 +1,35 @@
+.lorem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .lorem li {
+    list-style-type: none;
+  }
+  .lorem h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--black-color);
+    font-size: 700;
+  }
+  
+  .lorem p {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--grey-color);
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .lorem__loremIcon {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
