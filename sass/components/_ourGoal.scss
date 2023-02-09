@@ -1,32 +1,32 @@
 .card-wrapper {
   
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+  }
   
+  .target-card{
+    list-style-type: none;
+    position: relative;
+  }
   
-}
-
-.target-card{
-  list-style-type: none;
-  position: relative;
-}
-
-.target-card__text-block {
-  position: absolute;
-  bottom: 0px;
-  height: 70px;
-
-  width: 100%;
-  background-color: #2f303a;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  opacity: 80%;
-}
-
-.target-card__paragraph {
-  padding-block: 20px;
-}
+  .target-card__text-block {
+    position: absolute;
+    bottom: 0px;
+    height: 70px;
+  
+    width: 100%;
+    background-color: #2f303a;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    opacity: 80%;
+  }
+  
+  .target-card__paragraph {
+    padding-block: 20px;
+  }
