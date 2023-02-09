@@ -1,44 +1,32 @@
-.ourGoal__title, .team__title, .clients__title{
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.27;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: var(--black-color);
-    text-decoration: none;
-    
-    
-  }
+.card-wrapper {
   
-  .ourGoal__cart {
-    width: 1200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   
-  .ourGoal__cart li {
-    list-style-type: none;
-    position: relative;
-  }
   
-  .ourGoal__cart-textBlock {
-    position: absolute;
-    bottom: 0px;
-    height: 70px;
-  
-    width: 100%;
-    background-color: #2f303a;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    opacity: 80%;
-  }
-  
-  .ourGoal__cart-textBlock p {
-    padding-block: 20px;
-  }
-  
+}
+
+.target-card{
+  list-style-type: none;
+  position: relative;
+}
+
+.target-card__text-block {
+  position: absolute;
+  bottom: 0px;
+  height: 70px;
+
+  width: 100%;
+  background-color: #2f303a;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  opacity: 80%;
+}
+
+.target-card__paragraph {
+  padding-block: 20px;
+}

@@ -1,35 +1,38 @@
+.lorem__wrapper{
+  display: flex;
+  gap: 30px;
+  
+}
+
 .lorem {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-  }
+  display: flex;
+  flex-direction: column;
+ 
   
-  .lorem li {
-    list-style-type: none;
-  }
-  .lorem h3 {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: var(--black-color);
-    font-size: 700;
-  }
   
-  .lorem p {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: var(--grey-color);
-    text-decoration: none;
-    margin-top: 10px;
-  }
+}
+
+.lorem__title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   
-  .lorem__loremIcon {
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-  }
+  color: var(--black-color);
+  font-size: 700;
+}
+
+.lorem__paragraph {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+ 
+  color: var(--grey-color);
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.lorem__icon {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}

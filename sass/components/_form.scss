@@ -1,4 +1,4 @@
-.backdrop__data-title {
+.form__title {
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 700;
@@ -21,7 +21,7 @@
     transform: translateX(-100%);
   }
   
-  .backdrop__data {
+  .backdrop-data {
     position: absolute;
     border-radius: 4px;
     border: none;
@@ -32,7 +32,7 @@
     background-color: white;
   }
   
-  .backdrop__data-closeButton{
+  .close-button {
     width: 30px;
     height: 30px;
     right: 2px;
@@ -43,7 +43,7 @@
     padding: 2px;
   }
   
-  .backdrop__data-inputWrapper {
+  .form__input-wrapper {
     display: flex;
     position: relative;
     align-items: center;
@@ -51,36 +51,32 @@
     border-radius: 5px;
     margin-inline: 40px;
     margin-block: 28px;
-    
-    
+    &:hover{ border-color:#2196F3;
+        fill:#2196F3;}
   }
   
-  .backdrop__data-inputWrapper:hover {
-  border-color:#2196F3;
-  fill:#2196F3;
-  
-  }
-  
-  .input:hover{
+  .form__input{
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+}
+ 
+  .form__input:hover{
     border:0;
   }
-  .input:focus{
+  .form__input:focus{
     border: none;
     outline: none;
   }
   
-  .input{
-      border: 0;
-      background-color: transparent;
-      font-size: 20px;
-  }
+ 
   
-  .label{
+  .form__label{
       position: absolute;
       top: -20px;
   }
   
-  .text-area{
+  .form__text-area{
       border: 0;
     height: 100px;
     resize: none;
@@ -94,22 +90,14 @@
   margin-left: 1.5px;
   }
   
-  .submit-button {
-  background-color: #2196F3;
-  color: var(--button_text-color);
-  width: 200px;
-  height: 50px;
-  margin-inline: 164px;
-  border-radius: 4px;
-  border: 0;
-  }
   
   
   
   
   
-  .backdrop__data-legalCheckbox-icon{
-    height: 14px;
+  
+  .backdrop-data-checkbox__icon{
+  height: 14px;
   width: 14px;
   background-color: var(--white-color);
   border: none;
@@ -120,8 +108,8 @@
   
   }
   
-  .backdrop__data-legalCheckbox{
-        font-family: 'Roboto';
+  .backdrop-data-checkbox{
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -133,7 +121,7 @@
   margin-left: 54px;
   }
   
-  .backdrop__data-legalCheckbox .backdrop__data-legalCheckbox-checkbox{
+  .backdrop-data-checkbox .backdrop-data-checkbox__cross{
    position: relative;
    width: 16px;
    height: 15px;
@@ -141,7 +129,7 @@
   }
   
   
-  .backdrop__data-legalCheckbox input{
+  .backdrop-data-checkbox input{
    position:absolute;
    cursor:pointer;
    width: 0;
@@ -149,7 +137,7 @@
    opacity: 0;
    }
   
-   .backdrop__data-legalCheckbox .backdrop__data-legalCheckbox-checkmark{
+   .backdrop-data-checkbox .backdrop-data-checkbox__checkmark{
        position: absolute;
        height: 16px;
        width: 15px;
@@ -162,7 +150,7 @@
   
    }
   
-  .backdrop__data-legalCheckbox-checkmark::after{
+  .backdrop-data-checkbox__checkmark::after{
    display:block;
   border:0px solid white;
   position:absolute;
@@ -170,25 +158,25 @@
   top:-4px;
   }
   
-   .backdrop__data-legalCheckbox input:checked ~ .backdrop__data-legalCheckbox-checkmark::after{
+   .backdrop-data-checkbox input:checked ~ .backdrop-data-checkbox__checkmark::after{
        display:block;
    }
   
-    .backdrop__data-legalCheckbox input:checked ~ .backdrop__data-legalCheckbox-checkmark{
-       background-color:var(--main-color);
+    .backdrop-data-checkbox input:checked ~ .backdrop-data-checkbox__checkmark{
+        background-color:var(--main-color);
         transition-property: fill;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  border: 0;
-  border-radius: 2px;
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        border: 0;
+        border-radius: 2px;
     }
   
-    .backdrop-data-legal-checkbox__link{
+    .backdrop-data-checkbox__link{
       color:var(--main-color);
   }
   
   
-  .backdrop__data-legalCheckbox-button{
+  .backdrop-data-checkbox__button{
    
     border: 0;
     background-color:var(--main-color);
@@ -198,7 +186,7 @@
     color:var(--button_text-color);
     font-Weight:700;
     font-Size:16px;
-    Line-height: 30px;
+    Line-height:30px;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -209,4 +197,3 @@
     padding-top: 10px;
     padding-bottom: 10px;
     }
-    

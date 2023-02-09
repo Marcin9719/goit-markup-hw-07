@@ -1,15 +1,16 @@
-@import "./utils/variables.scss";
-@import "./utils/reset.scss";
-@import "./utils/modal";
+@import "./utils/variables";
+@import "./utils/reset";
+@import "./components/button";
+@import "./components/title";
+@import "./components/logo";
 @import "./components/header";
 @import "./components/banner";
 @import "./components/lorem";
-@import "./components/ourGoal";
+@import "./components/ourgoal";
 @import "./components/team";
-@import "./components/foooter";
-@import "./components/portfolioButt";
-@import "./components/portfolioCards";
-
-
-
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/form";
+@import "./components/portfolio-buttons";
+@import "./components/portfolio-card";
 
