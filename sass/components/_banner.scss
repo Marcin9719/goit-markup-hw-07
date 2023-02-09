@@ -1,0 +1,46 @@
+.banner {
+    background: linear-gradient(#2f303a66, #2f303a66),
+      url("/images/tło_efektywne-rozwiązania.png");
+    background-size: cover;
+    background-position: top;
+    padding-block: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  
+  
+  .banner__title {
+    color: var(--button_text-color);
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 900px;
+    line-height: 1.36;
+    margin-inline: 52px;
+  }
+  
+  
+  
+  .banner__button {
+    margin-top: 40px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    
+    background-color: var(--main-color);
+    
+    padding: 15px 32px;
+    color: var(--button_text-color);
+    &:hover{
+        background-color: palevioletred;
+    }
+  }
+  
+  
+  
+  
+ 
